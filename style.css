@@ -6,9 +6,11 @@
     color: white !important;
 }
 .mybtn{
-   padding: 10px 25px;
+   padding: 10px 30px;
    background-color: #e6e6e6 ;
    border: 1px solid black;
+   transition: background-color 0.5s ease 0.1s;
+   
 }
 .mybtn:hover{
     background-color: #D8FE81 !important;
@@ -28,5 +30,34 @@ span{
     font-size:x-large;
 }
 .para2{
-    font-size: smaller;
+    font-size: x-small;
+}
+.frac{
+    border-bottom: 3px solid black;
+}
+.card1{
+    background-color: #FCA831;
+    transition: background-color 0.5s ease 0.2s;
+    
+}
+.card2{
+    background-color:#D8FE81;
+    transition: background-color 0.5s ease 0.2s;
+}
+.card3{
+    background-color: #ff5ade;
+    transition: background-color 0.5s ease 0.2s;
+}
+.card1:hover,.card2:hover,.card3:hover{
+background-color: #e6e6e6; 
+}
+.mybtn2{
+   padding: 10px 65px;
+   background-color: transparent;
+   border: 1px solid #D8FE81;
+   color: white;
+}
+.mybtn2:hover{
+    background-color: #D8FE81 !important;
+  color: black;
 }
